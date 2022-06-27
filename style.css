@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Passion One', cursive;
+    list-style: none;
+    scroll-behavior: smooth;
+
+}
+
+.whole {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 10px;
+}
+
+header h2 {
+    font-size: 3rem;
+}
+
+.hamburger {
+    font-size: 5rem;
+    display: none;
+}
+
+
+
+header.sticky {
+    border: 2px solid white;
+    border-radius: 10px;
+    background: rgb(225, 28, 166);
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    transition: .6s;
+    padding: 20px;
+    z-index: 1000;
+}
+
+
+.nav {
+    display: flex;
+
+
+}
+
+li {
+    padding-left: 5%;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 5rem;
+    color: rgb(246, 244, 244);
+    cursor: pointer;
+
+}
+
+header li {
+    font-size: 1.5rem;
+    color: rgb(249, 245, 245);
+    text-shadow: 4px 4px #0a090a;
+    transition: .5s;
+    cursor: pointer;
+}
+
+li:hover {
+    transform: scaleY(1.5);
+    color: pink;
+}
+
+.whole {
+    background-image: url(./images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.now {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    padding: 5%;
+
+}
+
+.now h1 {
+    color: white;
+    text-shadow: 4px 4px #0a090a;
+    font-size: 3rem;
+}
+
+.now h3 {
+    text-shadow: 4px 4px #0a090a;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#bts {
+    max-width: 30%;
+    margin-top: 3%;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: #991044
+}
+
+#bts:hover {
+    transform: translateY(10px);
+    color: #991044;
+    border: 3px solid #FF0080;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 26px 26px 51px #FF0080,
+        20px 20px 45px #fefefe;
+    cursor: pointer;
+}
+
+
+
+.spans {
+    color: rgb(225, 28, 166);
+    text-shadow: 7px 7px #020102;
+
+}
+
+.text {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.mainProduct {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+}
+
+.prodImg:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+.btn {
+    margin-top: 3%;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: #991044;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    transition: .6s;
+}
+
+button:hover {
+    transform: translateY(10px);
+    color: #991044;
+    border: 3px solid #FF0080;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 26px 26px 51px #fffdfd,
+        -20px -20px 45px #FF0080;
+    cursor: pointer;
+}
+
+.mainFoot {
+    background-image: url(./images/6.png);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5%;
+
+}
+
+.mainService h1 {
+    font-size: 3rem;
+}
+
+.mainService h3 {
+    font-size: 2rem;
+}
+
+
+.mainFoot>div {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.foot ul {
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    transition: .6s;
+    color: inherit;
+}
+
+h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+h4::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 60px;
+    left: 0;
+    bottom: -10px;
+    background: rgb(39, 3, 3);
+}
+
+.service {
+    background-image: url(./images/9.png);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.divserv {
+    text-align: center;
+    background-color: #FF0080;
+    border-radius: 20px;
+    transition: .6s;
+    transition: .6s;
+    border: 2px solid gainsboro;
+
+}
+
+.divserv:hover {
+    transform: translateY(-10px);
+    border: 3px solid #FF0080;
+    box-shadow: 16px 16px 43px #faf7f7,
+        -16px -16px 43px #ffffff;
+}
+
+.divserv h1 {
+    padding: 20px 0;
+    font-size: 2rem;
+    background: white;
+    color: #FF0080;
+}
+
+.divserv p {
+    padding-top: 20px;
+    color: white;
+}
+
+.divserv img {
+    height: 15vh;
+    width: 10vw;
+    background: #FF0080;
+    box-shadow: 16px 16px 43px #8f8f8f,
+
+
+}
+
+.donut img {
+    height: 30vh;
+    width: 100%;
+    transition: .6s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.donut img:hover {
+    background: #e0e0e0;
+    box-shadow: 26px 26px 51px #bebebe,
+        -26px -26px 51px #ffffff;
+    transition: .5s;
+}
+
+.contact {
+    height: 100%;
+    width: 100%;
+}
+
+.axe {
+    height: 100%;
+    width: 100%;
+}
+
+#foot3 {
+    display: flex;
+    padding: 0%;
+}
+
+#foot3 li {
+    margin: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 990px) {
+    header h2 {
+        font-size: 2rem;
+
+    }
+
+    .nav a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .now h1 {
+        font-size: 2rem;
+    }
+
+    .now h3 {
+        font-size: 1.3rem;
+    }
+
+    #bts {
+        font-size: 1rem;
+        padding: 10px;
+        max-width: 20%;
+        border-radius: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    header.headed.sticky {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        border-radius: 2px;
+    }
+
+    .don {
+        color: black;
+        text-decoration: none;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav.show {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: #FF0080;
+        width: 100%;
+        align-items: flex-end;
+        padding-right: 10%;
+        top: 80%;
+        transition: .6s;
+
+    }   
+
+ 
+
+
+    .hamburger {
+        display: flex;
+    }
+
+    header h2 {
+        color: black;
+    }
+
+    .foot h4 {
+        font-size: 1rem;
+    }
+
+    ul {
+        font-size: .8rem;
+    }
+
+    #foot3 li {
+        font-size: 1rem;
+    }
+
+    .mainProduct {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .service {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divserv {
+        margin: 10px;
+    }
+
+    .btn {
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 10px;
+    }
+
+    .service {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .mainService h1 {
+        font-size: 2rem;
+    }
+
+    .mainService h3 {
+        font-size: 1rem;
+    }
+
+    .mainProduct {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        text-align: center;
+    }
+
+    .donut {
+        margin-bottom: 3%;
+    }
+
+    .mainFoot {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .service {
+        display: flex;
+        flex-direction: column;
+    }
+}
